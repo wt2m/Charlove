@@ -1,0 +1,51 @@
+
+
+.menu-options > div {
+    padding: 3px;
+    border-radius: 5px 0px 0px 5px;
+    border-top: 1px solid var(--tertiary-color);
+    border-left: 1px solid var(--tertiary-color);
+    border-bottom: 1px solid var(--tertiary-color);
+    margin-bottom: 2px;
+    transition: 0.5s;
+}
+
+.menu-options{
+    margin-top: 5%;
+    width: 10vh;
+}
+
+.menu-options > div:hover {
+    padding: 6px 3px 6px 3px;
+    font-weight: bold;
+    background-color: var(--secondary-color);
+    transition: 0.5s;
+    color: var(--quartiary-color);
+    border-top: 1px solid var(--secondary-color);
+    border-left: 1px solid var(--secondary-color);
+    border-bottom: 1px solid var(--secondary-color);
+    cursor: pointer;
+}
+
+
+.menu-options > div.active {
+    padding: 6px 3px 6px 3px;
+    font-weight: bold;
+    background-color: var(--secondary-color);
+    color: var(--quartiary-color);
+    border-top: 1px solid var(--secondary-color);
+    border-left: 1px solid var(--secondary-color);
+    border-bottom: 1px solid var(--secondary-color);
+}
+
+.menu-wrapper {
+    display: flex;
+}
+
+.menu-content {
+    width: calc(100% - 10vh);
+    height: 97vh;
+    border: solid 3px var(--secondary-color);
+    border-radius: 20px;
+}
+

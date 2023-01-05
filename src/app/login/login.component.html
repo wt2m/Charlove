@@ -1,0 +1,9 @@
+<div class="login-container">
+    <div>
+        <app-input [inputType]="'text'" [label]="'Email'" (value)="user.email = $event"></app-input>
+        <app-input [inputType]="'password'" [label]="'Senha'" (value)="user.password = $event"></app-input>
+        <div class="button-container">
+            <button (click)="test()">Login</button>
+        </div>
+    </div>
+</div>

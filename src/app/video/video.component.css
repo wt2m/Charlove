@@ -1,0 +1,8 @@
+::ng-deep iframe{
+    padding: 8% 1%;
+    width: 98%;
+    height: 78%;
+}
+.iframe-container {
+    height: 100%;
+}

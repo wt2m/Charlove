@@ -1,0 +1,17 @@
+
+
+<div class="menu-wrapper">
+
+    <div class="menu-options">
+        <div *ngFor="let option of options" (click)="changeMenu(option.option)" [ngClass]="{'active':option.option == selectedOption}">
+            <span >
+                {{option.text}}            
+            </span>
+        </div>
+    </div>
+    <div class="menu-content">
+
+            <app-video [video]="selectedVideo"></app-video>
+        
+    </div>
+</div>

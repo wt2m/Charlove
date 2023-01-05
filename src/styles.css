@@ -1,0 +1,8 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+    font-family: helvetica;
+    --primary-color: #32373B;
+    --secondary-color: #F4D6CC;
+    --tertiary-color: #4A5859;
+    --quartiary-color: #fff;
+}
